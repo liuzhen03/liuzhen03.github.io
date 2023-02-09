@@ -1,0 +1,58 @@
+{% for item in include.content %}
+<div class="row clearfix layout layout-{{item.layout | default: 'left'}}">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details">
+    <h4>{{ item.title }}</h4>
+    {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+    {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+    {%- if item.link -%}
+    {% include a.html href=item.link class="link" %}
+    {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
+    </a>
+    {%- endif -%}
+
+    <p class="no-print aditional-links">
+      {% for link in item.additional_links %}
+      {% include a.html href=link.url class="" %}
+      <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
+      </a>
+      {% endfor %}
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
+    {%- if item.quote -%}
+    <p class="quote">{{ item.quote }}</p>
+    {%- endif -%}
+    {{ item.description | strip | markdownify }}
+    {%- if item.video_path -%}
+    <div style="display: flex;justify-content: center; align-items: center;">
+      <video muted autoplay controls width="734" height="231">
+        <source src="{{item.video_path}}" type="video/mp4">
+      </video>
+      </div>
+    {%- endif -%}
+    {%- if item.video_path1 -%}
+    <div style="display: flex;justify-content: center; align-items: center;">
+      <video muted autoplay controls width="734" height="231">
+        <source src="{{item.video_path1}}" type="video/mp4">
+      </video>
+      </div>
+    <!-- <video muted autoplay controls width="611" height="211">
+      <source src="{{item.video_path1}}" type="video/mp4">
+    </video> -->
+    {%- endif -%}
+    {%- if item.img_path -%}
+    <div style="display: flex;justify-content: center; align-items: center;">
+      <img src="{{item.img_path}}" width="734" height="231">
+      </img>
+      </div>
+    <!-- <img src="{{item.img_path}}" width="834" height="211">
+    </img> -->
+    {%- endif -%}
+    {%- if item.img_path1 -%}
+    <img src="{{item.img_path1}}" width="278" height="211">
+    </img>
+    {%- endif -%}
+  </div>
+</div>
+{% endfor %}

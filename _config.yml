@@ -1,0 +1,232 @@
+# Site
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Zhen Liu (刘 震)
+email: liuzhen03@megvii.com
+website: https://liuzhen03.github.io
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  liuzhen03
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+# linkedin_username: balazssandor
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links (https://fontawesome.com/icons?d=gallery&m=free)
+additional_links:
+- title: google scholar
+  icon: fas fa-globe
+  url: https://scholar.google.com/citations?view_op=new_articles&hl=zh-CN&imq=zhen+liu#
+
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Biography
+about_profile_image: images/portrait.png
+about_content: | # this will include new lines to allow paragraphs
+  Zhen Liu received his B.S. and M.S. degrees from the School of Computer Science at Sichuan University in 2018 and 2021, supervised by [Prof. Jiancheng Lv](https://baike.baidu.com/item/%E5%90%95%E5%BB%BA%E6%88%90/12631172?fr=aladdin). Now he is a full time researcher in MEGVII Research, supervised by [Prof. Shuaicheng Liu](http://www.liushuaicheng.org/). His research interests include Computer Vision and Computer Graphics.
+  
+content:
+  - title: Education & Research Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Researcher
+        caption: Jul. 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+          ## **Megvii Reseasrch**
+          HDR Deghosting, Multi-Exposure Fusion (MEF), Low-Light Image Enhancement, Image Inpainting, Video Stabilization
+      - layout: left
+        title: Resarch Intern
+        caption: Nov. 2019 - Jun. 2021
+        description: | # this will include new lines to allow paragraphs
+          ## **Megvii Reseasrch**
+          High Dynamic Range Imaging (HDRI), Video Frame Interpolation (VFI)
+      - layout: left
+        title: M.S.
+        caption: Sept. 2018 - Jun. 2021
+        description: | # this will include new lines to allow paragraphs
+          ## **Sichuan University**
+          Computer Science
+      - layout: left
+        title: B.E.
+        caption: Sept. 2014 - Jun. 2018
+        description: | # this will include new lines to allow paragraphs
+          ## **Sichuan University**
+          Computer Science 
+
+  - title: Publications
+    layout: list
+    content:
+      
+      - layout: left
+        title: -2022-
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          ## **Low-Light Image Enhancement with Illumination-Aware Gamma Correction Network**
+
+          Yinglong Wang, **Zhen Liu**, Jianzhuang Liu, Songcen Xu, Chenwei Tang, Shuaicheng Liu
+
+          under review, 2022
+
+      - layout: left
+        title: -2022-
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          ## **Minimum Latency Deep Online Video Stabilization**
+
+          Zhuofan Zhang, **Zhen Liu**, Bing Zeng, Shuaicheng Liu
+
+          under review, 2022
+          
+          [[arXiv](https://arxiv.org/abs/2212.02073)]
+
+      - layout: left
+        title: -2022-
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          ## **Ghost-free High Dynamic Range Imaging with Context-aware Transformer**
+
+          **Zhen Liu**, Yinglong Wang, Bing Zeng, Shuaicheng Liu
+
+          European Conference on Computer Vision (**ECCV**), 2022
+
+          [[PDF](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136790336.pdf)]
+          [Code: [PyTorch](https://github.com/liuzhen03/HDR-Transformer-PyTorch), [MegEngine](https://github.com/megvii-research/HDR-Transformer)]
+          [Video: [Youtube](https://www.youtube.com/watch?v=knV-NigOawQ), [Bilibili](https://www.bilibili.com/video/BV14e4y1B7AG/?vd_source=2be578a0a24df16fc5667ad7b2772956)]
+          [[BibTex](collections/HDR-Transformer/HDR-Transformer.md)]
+
+      - layout: left
+        title: -2022-
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          ## **NTIRE 2022 Challenge on High Dynamic Range Imaging: Methods and Results**
+
+          Eduardo Perez-Pellitero, Sibi Catley-Chandar, Richard Shaw, Ales Leonardis, Radu Timofte (and 88 others, including **Zhen Liu**)
+
+          IEEE Conference on Computer Vision and Pattern Recognition Workshops (**CVPRW**), 2022
+
+          [[PDF](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/papers/Perez-Pellitero_NTIRE_2022_Challenge_on_High_Dynamic_Range_Imaging_Methods_and_CVPRW_2022_paper.pdf)]
+          [[BibTex](collections/NTIRE2022-HDR-Report/NTIRE2022-HDR-Report.md)]
+          
+      - layout: left
+        title: -2021-
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          ## **ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging**
+
+          **Zhen Liu**, Wenjie Lin, Xinpeng Li, Ting Jiang, Mingyan Han, Haoqiang Fan, Jian Sun, Shuaicheng Liu  
+
+          IEEE Conference on Computer Vision and Pattern Recognition Workshop (**CVPRW**), 2021
+
+          NTIRE Challenges - HDR (**Winner Award**)   
+
+          [[PDF](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Liu_ADNet_Attention-Guided_Deformable_Convolutional_Network_for_High_Dynamic_Range_Imaging_CVPRW_2021_paper.pdf)]
+          [Code: [PyTorch](https://github.com/liuzhen03/ADNet)]
+          [Video: [Youtube](https://www.youtube.com/watch?v=M0X-BXe3UqM&t=2s), [Bilibili](https://www.bilibili.com/video/BV19h411a78M/)]
+          [[BibTex](collections/ADNet/ADNet.md)]
+
+      - layout: left
+        title: -2021-
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          ## **NTIRE 2021 Challenge on High Dynamic Range Imaging: Dataset, Methods and Results**
+
+          Eduardo Perez-Pellitero, Sibi Catley-Chandar, Ales Leonardis, Radu Timofte (and 42 others, including **Zhen Liu**)
+
+          IEEE Conference on Computer Vision and Pattern Recognition Workshops (**CVPRW**), 2021
+
+          [[PDF](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Perez-Pellitero_NTIRE_2021_Challenge_on_High_Dynamic_Range_Imaging_Dataset_Methods_CVPRW_2021_paper.pdf)]
+          [[BibTex](collections/NTIRE2021-HDR-Report/NTIRE2021-HDR-Report.md)]
+      
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: High Dynamic Range Imaging
+        caption: May. 2020 - Present
+        description: | # this will include new lines to allow paragraphs
+          Multi-frame high dynamic range (HDR) imaging aims to generate images with a wider dynamic range and more realistic details by merging several low dynamic range (LDR) images with varying exposures.
+        img_path: images/hdr_full.png
+  
+      - layout: left
+        title: Online Video Stabilization
+        caption: Nov. 2021 - Apr. 2022
+        description: | # this will include new lines to allow paragraphs
+          Video stabilization is one of the most fundamental and challenging tasks in video processing and can be used in many applications, such as video surveillance, robotics, unmanned vehicles and smartphones. Video stabilization is a video enhancement technique that aims to improve original video quality by eliminating potentially shaky camera motion.
+        video_path: images/dvs_0.mp4
+        video_path1: images/dvs_1.mp4
+
+  
+  - title: Reviewer Services # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Journals
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          IEEE Transactions on Image Processing (**TIP**), 2022 - Present
+
+          IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2021 - Present
+        
+      - layout: left
+        title: Conferences
+        # caption: 
+        description: | # this will include new lines to allow paragraphs
+          IEEE International Conference on Computer Vision (**ICCV**), 2023
+
+          IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023
+
+          IEEE Conference on Intelligent Robots and Systems (**IROS**), 2022
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
+theme: jekyll-theme-architect
