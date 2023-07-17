@@ -82,24 +82,24 @@ content:
     content:
       
       - layout: left
-        title: -2022-
+        title: -2023-
         # caption: 
         description: | # this will include new lines to allow paragraphs
-          ## **Low-Light Image Enhancement with Illumination-Aware Gamma Correction Network**
+          ## **Low-Light Image Enhancement with Illumination-Aware Gamma Correction and Complete Image Modelling Network**
 
-          Yinglong Wang, **Zhen Liu**, Jianzhuang Liu, Songcen Xu, Chenwei Tang, Shuaicheng Liu
+          Yinglong Wang, **Zhen Liu**, Jianzhuang Liu, Songcen Xu, Shuaicheng Liu
 
-          under review, 2022
+          IEEE International Conference on Computer Vision (**ICCV**), 2023
 
       - layout: left
-        title: -2022-
+        title: -2023-
         # caption: 
         description: | # this will include new lines to allow paragraphs
           ## **Minimum Latency Deep Online Video Stabilization**
 
-          Zhuofan Zhang, **Zhen Liu**, Bing Zeng, Shuaicheng Liu
+          Zhuofan Zhang, **Zhen Liu**, Ping Tan, Bing Zeng, Shuaicheng Liu
 
-          under review, 2022
+          IEEE International Conference on Computer Vision (**ICCV**), 2023
           
           [[arXiv](https://arxiv.org/abs/2212.02073)]
 
@@ -195,6 +195,10 @@ content:
         title: Conferences
         # caption: 
         description: | # this will include new lines to allow paragraphs
+          SIGGRAPH Asia, 2023
+
+          Conference on Neural Information Processing Systems (**NeurIPS**), 2023
+
           IEEE International Conference on Computer Vision (**ICCV**), 2023
 
           IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023
