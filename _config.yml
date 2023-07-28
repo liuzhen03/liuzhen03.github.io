@@ -44,7 +44,7 @@ additional_links:
 
 # About Section
 about_title: Biography
-about_profile_image: images/portrait.png
+# about_profile_image: images/portrait.png
 about_content: | # this will include new lines to allow paragraphs
   Zhen Liu received his B.S. and M.S. degrees from the School of Computer Science at Sichuan University in 2018 and 2021, supervised by [Prof. Jiancheng Lv](https://baike.baidu.com/item/%E5%90%95%E5%BB%BA%E6%88%90/12631172?fr=aladdin). Now he is a full time researcher in MEGVII Research, supervised by [Prof. Shuaicheng Liu](http://www.liushuaicheng.org/). His research interests include Computer Vision and Computer Graphics.
   
@@ -87,7 +87,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           ## **Low-Light Image Enhancement with Illumination-Aware Gamma Correction and Complete Image Modelling Network**
 
-          Yinglong Wang, **Zhen Liu**, Jianzhuang Liu, Songcen Xu, Shuaicheng Liu
+          Yinglong Wang\*, **Zhen Liu**\*(equal contribution), Jianzhuang Liu, Songcen Xu, Shuaicheng Liu
 
           IEEE International Conference on Computer Vision (**ICCV**), 2023
 
@@ -97,12 +97,10 @@ content:
         description: | # this will include new lines to allow paragraphs
           ## **Minimum Latency Deep Online Video Stabilization**
 
-          Zhuofan Zhang, **Zhen Liu**, Ping Tan, Bing Zeng, Shuaicheng Liu
+          Zhuofan Zhang\*, **Zhen Liu**\*(equal contribution), Ping Tan, Bing Zeng, Shuaicheng Liu
 
           IEEE International Conference on Computer Vision (**ICCV**), 2023
           
-          [[arXiv](https://arxiv.org/abs/2212.02073)]
-
       - layout: left
         title: -2022-
         # caption: 
